@@ -6,6 +6,14 @@ Homebrew casks for my macOS apps.
 brew tap estruyf/tap
 ```
 
+## [Bingscape](https://github.com/estruyf/bingscape-tauri)
+
+Sets the daily Bing image as your desktop wallpaper. Apple Silicon only.
+
+```bash
+brew install --cask estruyf/tap/bingscape
+```
+
 ## [LinkLane](https://github.com/estruyf/LinkLane)
 
 Browser picker that routes every link to the browser you choose. Apple Silicon only.
