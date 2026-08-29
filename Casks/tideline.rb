@@ -1,6 +1,6 @@
 cask "tideline" do
-  version "1.11.0"
-  sha256 "8da0b8603967623f48c0a4a508a36d928cea5dac30ecd9aeb9cf2a90be8d0c67"
+  version "1.11.1"
+  sha256 "dc5410aa645ae4d347c24817a986a18e9799821c19c5bd63a333cc7532ee5d57"
 
   url "https://github.com/estruyf/tideline/releases/download/v#{version}/Tideline-#{version}-macos-universal.zip"
   name "Tideline"
