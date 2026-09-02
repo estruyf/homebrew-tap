@@ -1,6 +1,6 @@
 cask "bingscape" do
-  version "0.2.0"
-  sha256 "c9d27dd2554b7af5920cde4824a9a879d796dc049a675f578f789c76d088eba8"
+  version "0.3.0"
+  sha256 "731d85bbdc181bcc5347f0be603f00aa7546c05fbb1972e964b1316e64125838"
 
   url "https://github.com/estruyf/bingscape-tauri/releases/download/v#{version}/Bingscape_#{version}_aarch64.dmg"
   name "Bingscape"
