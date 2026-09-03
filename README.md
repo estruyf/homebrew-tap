@@ -14,6 +14,14 @@ Sets the daily Bing image as your desktop wallpaper. Apple Silicon only.
 brew install --cask estruyf/tap/bingscape
 ```
 
+## [Dock Profiler](https://github.com/estruyf/dock-profiler-macos)
+
+Menu bar app for switching between Dock profiles, each with an optional desktop. Requires macOS 14 or later.
+
+```bash
+brew install --cask estruyf/tap/dock-profiler
+```
+
 ## [LinkLane](https://github.com/estruyf/LinkLane)
 
 Browser picker that routes every link to the browser you choose. Apple Silicon only.
