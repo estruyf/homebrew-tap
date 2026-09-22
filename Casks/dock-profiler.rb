@@ -1,6 +1,6 @@
 cask "dock-profiler" do
-  version "1.9.0"
-  sha256 "ef9424abb7006b3e531acd82c79189b903eed0445c4e5414d3da345660daccdf"
+  version "1.10.0"
+  sha256 "8c5de2516b9763dbcbbf8fc4a6d06596468af29bc54f05ffcce87084e30b3d4f"
 
   url "https://github.com/estruyf/dock-profiler-macos/releases/download/v#{version}/DockProfiler-#{version}-macos-universal.zip"
   name "Dock Profiler"
