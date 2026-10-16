@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "0.0.20"
-  sha256 "90b69813f22f82567c1291af724b9a11d2515280ac8aa6814685877a3b8408e3"
+  version "0.0.21"
+  sha256 "dca07afea6ec8f8fa133b0690199930ca465e94e8b064c77f71619269713796b"
 
   url "https://github.com/estruyf/switchboard/releases/download/v#{version}/Switchboard-#{version}-arm64-mac.zip"
   name "Switchboard"
