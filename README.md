@@ -30,6 +30,14 @@ Browser picker that routes every link to the browser you choose. Apple Silicon o
 brew install --cask estruyf/tap/linklane
 ```
 
+## [Seshboard](https://github.com/estruyf/switchboard)
+
+Desktop app for managing Claude Code sessions. Apple Silicon only. Formerly Switchboard: existing `switchboard` installs move to `seshboard` on the next `brew upgrade`.
+
+```bash
+brew install --cask estruyf/tap/seshboard
+```
+
 ## [Tideline](https://github.com/estruyf/tideline)
 
 Menu bar app that files older downloads into folders by arrival date. Requires macOS 14 or later.
