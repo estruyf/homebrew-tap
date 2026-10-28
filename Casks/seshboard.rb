@@ -1,10 +1,8 @@
 cask "seshboard" do
-  version "1.1.0"
-  sha256 "96e2b3e9a8322b9c901d28571dedd7ce9f332cfaa08f79624b4288ed88464342"
+  version "1.2.0"
+  sha256 "6dcc72143db3329eb3c68b1867bb780a6ba14c6ab784f8d81e7029d323cc96b0"
 
-  # 1.1.0 is the last release from before the rename, so its archive and app still carry the old
-  # name. The next stable release replaces this file with homebrew/seshboard.rb from the app's repo.
-  url "https://github.com/estruyf/switchboard/releases/download/v#{version}/Switchboard-#{version}-arm64-mac.zip"
+  url "https://github.com/estruyf/switchboard/releases/download/v#{version}/Seshboard-#{version}-arm64-mac.zip"
   name "Seshboard"
   desc "Desktop app for managing Claude Code sessions"
   homepage "https://github.com/estruyf/switchboard"
@@ -23,7 +21,7 @@ cask "seshboard" do
   depends_on arch: :arm64
   depends_on macos: :ventura
 
-  app "Switchboard.app"
+  app "Seshboard.app"
 
   # An upgrade would otherwise replace the bundle under a copy that is still running.
   uninstall quit: "dev.switchboard.app"
