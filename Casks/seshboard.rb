@@ -1,6 +1,6 @@
 cask "seshboard" do
-  version "1.2.0"
-  sha256 "6dcc72143db3329eb3c68b1867bb780a6ba14c6ab784f8d81e7029d323cc96b0"
+  version "1.3.0"
+  sha256 "5e0c35ec99623244b61d045cb16ad9bb224183602f956c06e78417e5f0a90e4f"
 
   url "https://github.com/estruyf/switchboard/releases/download/v#{version}/Seshboard-#{version}-arm64-mac.zip"
   name "Seshboard"
