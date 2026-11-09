@@ -1,6 +1,6 @@
 cask "hunkdory" do
-  version "0.1.0"
-  sha256 "e839a3e2a199068fa2b559e06f5174d0f3d309ff9f419232586817f4bdeda6a9"
+  version "0.2.0"
+  sha256 "178dda05da00a62428d87a25171db9f6e4a9fc65fa464865c289c0c485a6801f"
 
   url "https://github.com/estruyf/hunkdory/releases/download/v#{version}/Hunkdory-#{version}-arm64-mac.zip"
   name "Hunkdory"
