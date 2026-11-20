@@ -1,11 +1,11 @@
 cask "seshboard" do
-  version "1.3.0"
-  sha256 "5e0c35ec99623244b61d045cb16ad9bb224183602f956c06e78417e5f0a90e4f"
+  version "1.4.0"
+  sha256 "9f87295b17cb503dc265815d224b6e93b52e563d511ce46c2251010e85c9374c"
 
-  url "https://github.com/estruyf/switchboard/releases/download/v#{version}/Seshboard-#{version}-arm64-mac.zip"
+  url "https://github.com/estruyf/seshboard/releases/download/v#{version}/Seshboard-#{version}-arm64-mac.zip"
   name "Seshboard"
   desc "Desktop app for managing Claude Code sessions"
-  homepage "https://github.com/estruyf/switchboard"
+  homepage "https://github.com/estruyf/seshboard"
 
   livecheck do
     url :url
